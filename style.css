@@ -1,0 +1,104 @@
+:root {
+    --written:  'Caveat', cursive;
+    --printed: 'Quicksand', sans-serif;
+}
+
+h1 {
+    font-family: var(--written);
+    font-size: 30px;
+    color: #F26440;
+    text-align: center;
+    margin-bottom: 10px;
+}
+p.write {
+    font-family: var(--written);
+    font-size: 21px;
+    color: #707070;
+    margin-top: 0;
+}
+body {
+    background-image: url("bugboard-bg.png");
+    width: 100vw;
+    height: 100vh;
+    background-repeat: repeat-x;
+    background-size: cover;
+    position: relative;
+}
+
+.frame {
+    position: absolute;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    
+}
+#switch {
+    z-index: 3;
+    top: 83vh;
+    left: 10vw;
+}
+#shades {
+    z-index: 2;
+    justify-content: center;
+
+}
+#collection {
+    z-index: 1;
+    justify-content: center;
+}
+#box1:hover {
+    opacity: 0;
+}
+#box2:hover {
+    opacity: 0;
+}
+#box3:hover {
+    opacity: 0;
+}
+#box4:hover {
+    opacity: 0;
+}
+#box5:hover {
+    opacity: 0;
+}
+#box6:hover {
+    opacity: 0;
+}
+#box7:hover {
+    opacity: 0;
+}
+#box8:hover {
+    opacity: 0;
+}
+#box9:hover {
+    opacity: 0;
+}
+#box10:hover {
+    opacity: 0;
+}
+
+#button-slide {
+    transition: transform 0.6s ease;
+}
+
+#button-slide:hover {
+    cursor: pointer;
+}
+
+.instruct {
+    position: absolute;
+    margin: 20px 0 0 20px;
+    width: 250px;
+    height: 250px;
+    background-image: url("paper.png");
+    background-position: top center;
+    background-size: cover;
+    padding: 30px;
+}
+.instruct p {
+    padding: 0 10px;
+}
+.instruct h1 {
+    padding-top: 10px;
+}
