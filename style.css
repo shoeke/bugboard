@@ -126,6 +126,7 @@ body {
     top: 10vh;
     width: 15vw;
     padding: 1vw 2vw 2vw 1vw;
+    box-shadow: 3px 3px 6px #70707025;
     display: none;
 }
 
