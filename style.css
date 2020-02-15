@@ -62,6 +62,7 @@ body {
 #box1:hover {
     opacity: 0;
 }
+
 #box2:hover {
     opacity: 0;
 }
@@ -127,4 +128,5 @@ body {
     padding: 1vw 2vw 2vw 1vw;
     display: none;
 }
+
 
